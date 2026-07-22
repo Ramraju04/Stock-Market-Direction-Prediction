@@ -1,0 +1,26 @@
+# Create virtual environment
+python -m venv venv
+
+# Activate (Windows)
+venv\Scripts\activate
+
+# Activate (Linux / Mac)
+source venv/bin/activate
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install requirements
+pip install -r requirements.txt
+
+python -m scripts.run_preprocessing
+
+python -m scripts.run_training
+
+python -m scripts.run_1
+
+python -m scripts.run_2
+
+
+streamlit run app/app.py
+

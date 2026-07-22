@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+catboost_info/
+
+.ipynb_checkpoints/
+
+.env
+
+venv/
+.venv/
+
+.DS_Store
